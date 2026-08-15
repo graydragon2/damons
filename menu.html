@@ -2,206 +2,386 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Damons is a restaurant in Jesup, Ga that serves everything from burgers to chicken fingers and wings. A friendly small town place to eat.">
+    <meta name="description" content="See the full menu at Damon's Famous Fingers &amp; Wings in Jesup, GA &mdash; fingers, wings, burgers, Fresh Mex, salads and sandwiches.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="css/grid.css">
-    <link rel="stylesheet" href="querie.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,700&display=swap" rel="stylesheet">
-    <title>Damons Famous Fingers and Wings</title>
+    <meta name="theme-color" content="#c81324">
+    <link rel="icon" href="images/damons.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap"></noscript>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Menu | Damon's Famous Fingers &amp; Wings</title>
 </head>
 <body>
-<header>
-    <nav>
-        <div class="row">
-            <img src="images/Damon.png" alt="Damons logo" class="logo-menu">
-            <ul class="main-nav js--main-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#hours">Hours</a></li>
-            </ul>
-            <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
-        </div>
-    </nav>
+
+<header class="site-header is-scrolled">
+    <div class="container">
+        <a href="index.html" class="brand">Damon's <span>Famous</span></a>
+        <ul class="main-nav js-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#hours">Hours</a></li>
+            <li><a href="index.html#find-us">Find Us</a></li>
+            <li><a href="menu.html" class="is-active">Menu</a></li>
+        </ul>
+        <button class="nav-toggle js-nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <span></span>
+        </button>
+    </div>
 </header>
-    <section class="section-menu" id="menu">
-        <div class="row">
-            <h2>Try out one of our tasty menu items.</h2>
-            <h3 class="flavors">Wings &amp; Fingers Flavors</h3>
-            <p class="flavors">Mild, Wild, Inferno, and Insane!! Also Teryaki, BBQ, and Naked<br><span class="menu-descriptions">We can light you up...Just ask the cook!!!</span></p>
-        </div>
-        <div class="col span-1-of-3 box menu-1">
-            <h3>Starters &amp; Sides</h3>
-                <p>French Fries, Large....$2.99</p>
-                <p>Cheese Fries, Large....$3.99</p>
-                <p>Chili Cheese Fries, Large....$4.99</p>
-                <p>Sweet Tator Fries, Large....$3.99</p>
-                <p>Chips and Queso....$2.99</p>
-                <p>Onion Rings....$4.99</p>
-                <p>Cheese Stix....$5.29</p>
-                <p>Fried Mushrooms&#40;<i>homemade</i>&#41;....$5.29</p>
-                <p>Baked Beans&#40;<i>individual</i>&#41;....$1.29</p>
-                <p>Baked Beans, 16oz....$4.99</p>
-                <p>Baked Beans, 32oz....$9.49</p>
-                <p>Add a Finger&#40;1&#41;....$.99</p>
-                <p>Add a Grilled Finger&#40;1&#41;....$.99</p>
-                <p>Add Cheese....$.99</p>
-                <p>Add Bacon....$.99</p>
-                <p>Add Queso Cheese....$1.99</p>
-                <p>Side o'Sauce....$.35</p>
-                <p>Fried Pickles....$4.99</p>
-                <p>Baked Potato....$1.99</p><br>
-            <h3>Fresh Mex</h3>
-                <p>Chicken Quesadilla....$6.99</p>
-                <p>Cheese Quesadilla....$4.99</p>
-                <p>Philly Quesadilla....$7.49</p>
-                <p>Spinach &amp; Mushroom Quesadilla....$6.49</p>
-                <p>Ralphie Burrito....$6.49</p>
-                <p>Moocha Chicken Nachos....$6.99</p>
-                <p>Moocha Nachos....$4.99</p><br>
-            <h3>Salad Specialties</h3>
-                <p class="menu-descriptions">All Salads &#40except the Caesar&#41 are a mixture of fresh romaine and iceberg lettuce with crisp hand&dash;cut veggies&#58 cucumber, onoon and tomato</p><br>
-                <p>Famous Finger Salad....$6.89</p>
-                <p>Grilled Finger Salad....$6.89</p>
-                <p>Spicy Finger Salad....$6.89</p>
-                <p>Caesar Salad....$6.89</p>
-                <p>The Famous Greek Salad....$6.99</p><br>
-                <h5>Dressings&#58</h5>
-                <p class="menu-descriptions">Famous Sauce, Made Here Honey Mustard, Home Made Blue Cheese, Ranch, Lite Ranch, French, Thousand Island, Greek, Balsamic Vinaigrette, Italian and Light selections</p><br>
-            <h3>Kids Meals</h3>
-                <p>"10 and under please"</p>
-                <p>Kid Finger &#8901; Kid Wing &#8901; Kid Burger</p>
-                <p>Kid Grilled Cheese &#8901; Kid Dog &#8901; Quesadilla</p>
-                <p>$4.99</p>
-                <p class="menu-descriptions">All kids meals include small drink and french fries!</p>
-            
-        </div>
-        <div class="col span-1-of-3 box menu-1">
-            <h3>Chicken Plates</h3>
-                <p>The Famous Plate....$6.99</p>
-                <p>The Famous Grande....$9.59</p>
-                <p>The Grilled Plate....$6.99</p>
-                <p>The Grilled Grande....$9.59</p>
-                <p>Wing Plate....$6.99</p>
-                <p>Grande Wing Plate....$9.69</p>
-                <p>Fwinger....$7.99</p>
-                <p>Fwinger Grande....$10.29</p>
-                <p class="menu-descriptions">All meals include &#58; french fries, fabulous beans,</p>
-                <p class="menu-descriptions">texas toast &amp; famous sauce for dipping</p>
-                <br>
-            <h3>The Skinny</h3>
-                <p>The Skinny Chicken Salad....$6.49<br><span class="menu-descriptions">Grilled fingers on a bed of romaine &amp; iceberg with all the veggies and texas toast</span></p>
-                <p>The Skinny Wrap....$6.49<br><span class="menu-descriptions">Grilled fingers wrapped in a grilled tortilla with veggies and light ranch served with Baked Lays Chips</span></p>
-                <p>The Skinny Sandwich....$6.49<br><span class="menu-descriptions">Grilled fingers on texas toast with lettuce and tomato served with Baked Lays Chips</span></p>
-                <p>The Three Amigos....$6.49<br><span class="menu-descriptions">3 grilled fingers sharing room with a side salad and texas toast</span></p>                
-                <br>
-            <h3>Available Dipping Sauces</h3>
-                <p>Famous, Made Here Honey Mustard,</p>
-                <p>Homemade Blue Cheese, BBQ, Teryaki,</p>
-                <p>Ranch, Mild, Wild, Inferno and Insane</p><br>
-            <h3>Sandwiches &amp; Such</h3>
-                <p>The Famous Club....$6.89<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Grilled Chicken Sandwich....$6.79<br><span class="menu-descriptions">Grilled chicken fingers with lettuce and tomato on texas toast</span></p>
-                <p>Fried Finger Sandwich....$6.79<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Italian Clucker&#40;<i>fried or grilled</i>&#41;....$6.59<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Chicken Melt....$6.49<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Philly Steak....$6.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>B&#46;L&#46;T&#46;....$5.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Grilled Cheeser....$5.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Spicy Chicken&#40;<i>fried or grilled</i>&#41;....$6.49<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Delectable &#10077;D&#10078; Dog....$5.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Chicken Wraps&#40;<i>fried or grilled</i>&#41;....$6.79<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Spicy Wraps&#40;<i>fried or grilled</i>&#41;....$6.89<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Caesar Wrap....$6.79<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>Chicken Salad Sandwich....$6.79<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-        </div>
-        <div class="col span-1-of-6 box menu-1">
-            <h3>Buffalo Wings</h3>
-                <p>5 piece.....$4.59</p>
-                <p>10 piece.....$8.99</p>
-                <p>15 piece.....$13.79</p>
-                <p>20 piece.....$18.99</p>
-                <p>25 piece.....$22.89</p>
-                <p>30 piece.....$26.99</p>
-                <p>50 piece.....$44.29</p>
-                <p>80 piece.....$67.99</p>
-                <br>
-            <h3>Famous Fried Fingers</h3>
-                <p>5 piece.....$4.99</p>
-                <p>10 piece.....$8.99</p>
-                <p>15 piece.....$13.29</p>
-                <p>20 piece.....$17.99</p>
-                <p>25 piece.....$21.95</p>
-                <p>30 piece.....$25.99</p>
-                <p>50 piece.....$43.39</p>
-                <p>80 piece.....$65.99</p>
-        </div>
-        <div class="col span-1-of-6 box menu-1">
-            <h3>Buffalo Fingers</h3>
-                <p>5 piece.....$5.49</p>
-                <p>10 piece.....$9.59</p>
-                <p>15 piece.....$13.99</p>
-                <p>20 piece.....$18.99</p>
-                <p>25 piece.....$22.89</p>
-                <p>30 piece.....$26.99</p>
-                <p>50 piece.....$44.29</p>
-                <p>80 piece.....$67.99</p>
-                <br>
-            <h3>Grilled Chicken Fingers</h3>
-                <p>5 piece.....$4.99</p>
-                <p>10 piece.....$8.99</p>
-                <p>15 piece.....$13.29</p>
-                <p>20 piece.....$17.99</p>
-                <p>25 piece.....$21.95</p>
-                <p>30 piece.....$25.99</p>
-                <p>50 piece.....$43.39</p>
-                <p>80 piece.....$65.99</p>
-        </div>
-        <div class="col span-1-of-3 box menu-1">
-            <h3>Burger Mania</h3>
-                <p>The World Famous &#10077;D&#10078; Burger....$6.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Double &#10077;D&#10078; Burger....$9.99<br><span class="menu-descriptions">Grilled chicken fingers with lettuce and tomato on texas toast</span></p>
-                <p>The Rodeo Burger....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Chili Cheese Burger</i>&#41;....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Mushroom Swiss....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Bacon Swiss....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Baby Blue Burger....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Fire Cracker Burger....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Buffalo Burger....$7.29<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Famous &#10077;DOMINATOR&#10078;....$10.49<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>SON OF DOMINATOR</i>&#41;....$9.49<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The &#10077;Gigantor&#10078;<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <p>The Philly Burger....$15.99<br><span class="menu-descriptions">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</span></p>
-                <br>
-                <br>
-                <br>
-                <p>Go Gluten free with any wrap or Quesadilla</p>
-        </div>
-    </section>
-    <footer>
-            <div class="row">
-                <div class="col span-1-of-2">
-                    <ul class="footer-nav">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">Top of Page</a></li>
+
+<section class="menu-hero">
+    <div class="container">
+        <span class="eyebrow load-in" style="--d:.1s">The Full Spread</span>
+        <h1 class="load-in" style="--d:.22s">Our Menu</h1>
+        <p class="load-in" style="--d:.36s">Famous fingers, saucy wings, burgers, Fresh Mex and more &mdash; made to order in Jesup, GA.</p>
+    </div>
+</section>
+
+<div class="flavor-bar load-in" style="--d:.48s">
+    <h3>Wings &amp; Fingers Flavors</h3>
+    <p>Mild &middot; Wild &middot; Inferno &middot; Insane &middot; Teriyaki &middot; BBQ &middot; Naked
+        <span class="menu-note">We can light you up&hellip; just ask the cook!</span>
+    </p>
+</div>
+
+<section class="section" id="menu">
+    <div class="container">
+        <div class="menu-grid">
+
+            <div class="reveal">
+                <div class="menu-card">
+                    <h3>Starters &amp; Sides</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">French Fries, Large</span><span class="menu-item__leader"></span><span class="menu-item__price">$2.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Cheese Fries, Large</span><span class="menu-item__leader"></span><span class="menu-item__price">$3.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Chili Cheese Fries, Large</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Sweet Tator Fries, Large</span><span class="menu-item__leader"></span><span class="menu-item__price">$3.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Chips and Queso</span><span class="menu-item__leader"></span><span class="menu-item__price">$2.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Onion Rings</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Cheese Stix</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Fried Mushrooms (homemade)</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Baked Beans (individual)</span><span class="menu-item__leader"></span><span class="menu-item__price">$1.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Baked Beans, 16oz</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Baked Beans, 32oz</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.49</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Add a Finger (1)</span><span class="menu-item__leader"></span><span class="menu-item__price">$.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Add a Grilled Finger (1)</span><span class="menu-item__leader"></span><span class="menu-item__price">$.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Add Cheese</span><span class="menu-item__leader"></span><span class="menu-item__price">$.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Add Bacon</span><span class="menu-item__leader"></span><span class="menu-item__price">$.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Add Queso Cheese</span><span class="menu-item__leader"></span><span class="menu-item__price">$1.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Side o'Sauce</span><span class="menu-item__leader"></span><span class="menu-item__price">$.35</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Fried Pickles</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Baked Potato</span><span class="menu-item__leader"></span><span class="menu-item__price">$1.99</span></div></li>
                     </ul>
                 </div>
-                <div class="col span-1-of-2">
-                    <ul class="social-links">
-                        <li><a href="https://www.facebook.com/Damons-Famous-Fingers-Wings-116184378401820/" target="_blank" rel="noopener"><i class="ion-social-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/explore/locations/37277473/damons-famous-fingers-wings/" target="_blank" rel="noopener"><i class="ion-social-instagram"></i></a></li>
+
+                <div class="menu-card">
+                    <h3>Fresh Mex</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Chicken Quesadilla</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Cheese Quesadilla</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Philly Quesadilla</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.49</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Spinach &amp; Mushroom Quesadilla</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Ralphie Burrito</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Moocha Chicken Nachos</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Moocha Nachos</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                    </ul>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Salad Specialties</h3>
+                    <p class="menu-note">All salads (except the Caesar) are a mixture of fresh romaine and iceberg lettuce with crisp hand-cut veggies: cucumber, onion and tomato.</p>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Famous Finger Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Grilled Finger Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Spicy Finger Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Caesar Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">The Famous Greek Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                    </ul>
+                    <p class="menu-card__footer-note"><strong>Dressings:</strong> Famous Sauce, Made Here Honey Mustard, Home Made Blue Cheese, Ranch, Lite Ranch, French, Thousand Island, Greek, Balsamic Vinaigrette, Italian and Light selections.</p>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Kids Meals</h3>
+                    <p class="menu-note">10 and under please</p>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Kid Finger &middot; Kid Wing &middot; Kid Burger</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Kid Grilled Cheese &middot; Kid Dog &middot; Quesadilla</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Any kids meal</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                    </ul>
+                    <p class="menu-card__footer-note">All kids meals include a small drink and french fries!</p>
+                </div>
+            </div>
+
+            <div class="reveal">
+                <div class="menu-card">
+                    <h3>Chicken Plates</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">The Famous Plate</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">The Famous Grande</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.59</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">The Grilled Plate</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">The Grilled Grande</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.59</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Wing Plate</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Grande Wing Plate</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.69</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Fwinger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">Fwinger Grande</span><span class="menu-item__leader"></span><span class="menu-item__price">$10.29</span></div></li>
+                    </ul>
+                    <p class="menu-card__footer-note">All meals include french fries, fabulous beans, texas toast &amp; famous sauce for dipping.</p>
+                </div>
+
+                <div class="menu-card">
+                    <h3>The Skinny</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Skinny Chicken Salad</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">Grilled fingers on a bed of romaine &amp; iceberg with all the veggies and texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Skinny Wrap</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">Grilled fingers wrapped in a grilled tortilla with veggies and light ranch, served with Baked Lays chips</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Skinny Sandwich</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">Grilled fingers on texas toast with lettuce and tomato, served with Baked Lays chips</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Three Amigos</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">3 grilled fingers sharing room with a side salad and texas toast</p>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="menu-card menu-card--compact">
+                    <h3>Available Dipping Sauces</h3>
+                    <p class="menu-note" style="margin-bottom:0;">Famous, Made Here Honey Mustard, Homemade Blue Cheese, BBQ, Teriyaki, Ranch, Mild, Wild, Inferno and Insane</p>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Sandwiches &amp; Such</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Famous Club</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Grilled Chicken Sandwich</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.79</span></div>
+                            <p class="menu-item__desc">Grilled chicken fingers with lettuce and tomato on texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Fried Finger Sandwich</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.79</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Italian Clucker (fried or grilled)</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.59</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Chicken Melt</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Philly Steak</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">B.L.T.</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Grilled Cheeser</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Spicy Chicken (fried or grilled)</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.49</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Delectable &#10077;D&#10078; Dog</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Chicken Wraps (fried or grilled)</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.79</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Spicy Wraps (fried or grilled)</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.89</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Caesar Wrap</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.79</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Chicken Salad Sandwich</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.79</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <p>&copy; 2019 by SGA Web Designs. All rights reserved.</p>
+
+            <div class="reveal">
+                <div class="menu-card">
+                    <h3>Buffalo Wings</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">5 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.59</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">10 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$8.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">15 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$13.79</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">20 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$18.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">25 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$22.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">30 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$26.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">50 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$44.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">80 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$67.99</span></div></li>
+                    </ul>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Famous Fried Fingers</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">5 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">10 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$8.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">15 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$13.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">20 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$17.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">25 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$21.95</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">30 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$25.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">50 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$43.39</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">80 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$65.99</span></div></li>
+                    </ul>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Buffalo Fingers</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">5 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$5.49</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">10 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.59</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">15 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$13.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">20 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$18.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">25 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$22.89</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">30 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$26.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">50 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$44.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">80 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$67.99</span></div></li>
+                    </ul>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Grilled Chicken Fingers</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">5 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$4.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">10 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$8.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">15 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$13.29</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">20 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$17.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">25 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$21.95</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">30 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$25.99</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">50 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$43.39</span></div></li>
+                        <li class="menu-item-full"><div class="menu-item"><span class="menu-item__name">80 piece</span><span class="menu-item__leader"></span><span class="menu-item__price">$65.99</span></div></li>
+                    </ul>
+                </div>
+
+                <div class="menu-card">
+                    <h3>Burger Mania</h3>
+                    <ul class="menu-items">
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The World Famous &#10077;D&#10078; Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$6.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Double &#10077;D&#10078; Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.99</span></div>
+                            <p class="menu-item__desc">Grilled chicken fingers with lettuce and tomato on texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Rodeo Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Chili Cheese Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Mushroom Swiss</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Bacon Swiss</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Baby Blue Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Fire Cracker Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Buffalo Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$7.29</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Famous &#10077;DOMINATOR&#10078;</span><span class="menu-item__leader"></span><span class="menu-item__price">$10.49</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">Son of Dominator</span><span class="menu-item__leader"></span><span class="menu-item__price">$9.49</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The &#10077;Gigantor&#10078;</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                        <li class="menu-item-full">
+                            <div class="menu-item"><span class="menu-item__name">The Philly Burger</span><span class="menu-item__leader"></span><span class="menu-item__price">$15.99</span></div>
+                            <p class="menu-item__desc">Fried or grilled chicken, lettuce, tomato, bacon and cheese on grilled texas toast</p>
+                        </li>
+                    </ul>
+                    <p class="menu-card__footer-note">Go gluten free with any wrap or quesadilla.</p>
+                </div>
             </div>
-    </footer>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"></script>
-<script src="scripts.js"></script>
+
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="brand">Damon's <span>Famous</span></a>
+                <p>Famous fingers, wings, burgers and Fresh Mex &mdash; feedin' Jesup with love since 1999.</p>
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.facebook.com/Damons-Famous-Fingers-Wings-116184378401820/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8.5H16l.5-3.5h-3V7.7c0-1 .3-1.7 1.7-1.7H16.5V2.8C16.2 2.8 15.1 2.7 13.9 2.7c-2.6 0-4.4 1.6-4.4 4.5V10H6.9v3.5h2.6V22h4z"/></svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/explore/locations/37277473/damons-famous-fingers-wings/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#hours">Hours</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Visit</h4>
+                <ul>
+                    <li>334 West Cherry Street</li>
+                    <li>Jesup, GA</li>
+                    <li><a href="tel:19125889464">(912) 588-9464</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Damon's Famous Fingers &amp; Wings. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
