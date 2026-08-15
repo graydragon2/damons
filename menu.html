@@ -8,7 +8,8 @@
     <link rel="icon" href="images/damons.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap"></noscript>
     <link rel="stylesheet" href="css/main.css">
     <title>Menu | Damon's Famous Fingers &amp; Wings</title>
 </head>
@@ -31,13 +32,13 @@
 
 <section class="menu-hero">
     <div class="container">
-        <span class="eyebrow">The Full Spread</span>
-        <h1>Our Menu</h1>
-        <p>Famous fingers, saucy wings, burgers, Fresh Mex and more &mdash; made to order in Jesup, GA.</p>
+        <span class="eyebrow load-in" style="--d:.1s">The Full Spread</span>
+        <h1 class="load-in" style="--d:.22s">Our Menu</h1>
+        <p class="load-in" style="--d:.36s">Famous fingers, saucy wings, burgers, Fresh Mex and more &mdash; made to order in Jesup, GA.</p>
     </div>
 </section>
 
-<div class="flavor-bar">
+<div class="flavor-bar load-in" style="--d:.48s">
     <h3>Wings &amp; Fingers Flavors</h3>
     <p>Mild &middot; Wild &middot; Inferno &middot; Insane &middot; Teriyaki &middot; BBQ &middot; Naked
         <span class="menu-note">We can light you up&hellip; just ask the cook!</span>
@@ -48,7 +49,7 @@
     <div class="container">
         <div class="menu-grid">
 
-            <div>
+            <div class="reveal">
                 <div class="menu-card">
                     <h3>Starters &amp; Sides</h3>
                     <ul class="menu-items">
@@ -112,7 +113,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="reveal">
                 <div class="menu-card">
                     <h3>Chicken Plates</h3>
                     <ul class="menu-items">
@@ -218,7 +219,7 @@
                 </div>
             </div>
 
-            <div>
+            <div class="reveal">
                 <div class="menu-card">
                     <h3>Buffalo Wings</h3>
                     <ul class="menu-items">

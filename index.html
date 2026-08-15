@@ -8,7 +8,8 @@
     <link rel="icon" href="images/damons.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Poppins:wght@500;600;700;800&amp;display=swap"></noscript>
     <link rel="stylesheet" href="css/main.css">
     <title>Damon's Famous Fingers &amp; Wings | Jesup, GA</title>
 </head>
@@ -32,11 +33,11 @@
 
 <section class="hero" id="top">
     <div class="container">
-        <img src="images/Damon.png" alt="Damon's Famous Fingers &amp; Wings logo" class="hero-logo">
-        <span class="eyebrow">Jesup, Georgia &middot; Est. 1999</span>
-        <h1>Hand-Breaded Fingers. Fired-Up Wings. Small-Town Love.</h1>
-        <p class="lead">Feedin' Jesup with love since 1999 &mdash; famous fingers, never-frozen wings, burgers and Fresh Mex made the way you remember.</p>
-        <div class="btn-row">
+        <img src="images/Damon.png" alt="Damon's Famous Fingers &amp; Wings logo" class="hero-logo load-in" style="--d:.05s">
+        <span class="eyebrow load-in" style="--d:.15s">Jesup, Georgia &middot; Est. 1999</span>
+        <h1 class="load-in" style="--d:.28s">Hand-Breaded Fingers. Fired-Up Wings. Small-Town Love.</h1>
+        <p class="lead load-in" style="--d:.42s">Feedin' Jesup with love since 1999 &mdash; famous fingers, never-frozen wings, burgers and Fresh Mex made the way you remember.</p>
+        <div class="btn-row load-in" style="--d:.56s">
             <a href="menu.html" class="btn btn-primary">View Full Menu</a>
             <a href="tel:19125889464" class="btn btn-ghost">Call (912) 588-9464</a>
         </div>
@@ -49,13 +50,13 @@
 
 <section class="section" id="story">
     <div class="container story">
-        <div class="story-media">
+        <div class="story-media reveal">
             <img src="images/damons front.jpg" alt="Damon's Famous Fingers &amp; Wings storefront in Jesup, GA">
             <div class="story-badge">
                 <img src="images/damons.jpg" alt="Get Famous logo">
             </div>
         </div>
-        <div class="story-copy">
+        <div class="story-copy reveal" style="--d:.15s">
             <span class="eyebrow">Our Story</span>
             <h2>A friendly small-town place to eat</h2>
             <p>For over two decades, Damon's has been the spot Jesup locals count on for hand-breaded chicken fingers, saucy wings and burgers made to order. We're a family-run kitchen that believes good food and good people go together.</p>
@@ -79,28 +80,28 @@
 
 <section class="section section--alt" id="hours">
     <div class="container">
-        <div class="section-head">
+        <div class="section-head reveal">
             <span class="eyebrow">Come See Us</span>
             <h2>Hours &amp; Location</h2>
             <p>Stop by for lunch, dinner, or a to-go order any day of the week.</p>
         </div>
 
         <div class="hours-grid">
-            <div class="hours-card">
+            <div class="hours-card reveal">
                 <div class="icon">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 </div>
                 <h3>Monday &ndash; Thursday</h3>
                 <p>10:30am &ndash; 9:00pm</p>
             </div>
-            <div class="hours-card">
+            <div class="hours-card reveal">
                 <div class="icon">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 </div>
                 <h3>Friday &amp; Saturday</h3>
                 <p>10:30am &ndash; 9:30pm</p>
             </div>
-            <div class="hours-card">
+            <div class="hours-card reveal">
                 <div class="icon">
                     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 </div>
@@ -109,7 +110,7 @@
             </div>
         </div>
 
-        <div class="find-us" id="find-us">
+        <div class="find-us reveal" id="find-us">
             <div class="find-us-copy">
                 <h3>Find Us</h3>
                 <ul class="contact-list">
@@ -134,7 +135,7 @@
 </section>
 
 <section class="cta-banner">
-    <div class="container">
+    <div class="container reveal">
         <h2>Hungry Yet?</h2>
         <p>Browse the full menu of fingers, wings, burgers and Fresh Mex &mdash; or give us a call to order ahead.</p>
         <div class="btn-row">
